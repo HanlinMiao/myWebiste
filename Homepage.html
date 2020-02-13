@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website Homepage</title>
+	<style>
+		body{
+			margin:0px;
+			padding:0px;
+			background-image: url('circuits.jpg');
+			vertical-align: middle;
+			background-repeat: no-repeat;
+		}
+
+		h1{
+			font-size: 60px;
+			line-height: 10px;
+			color:white;
+			font-family: times new roman;
+		}
+		hr{
+			display:block;
+			width: 30%;
+			border-color: 10px solid white;
+			border-width: 10px;
+		}
+		button{
+			background-color:lightgray;
+			border-radius: 10px;
+			font-size: 15px;
+			font-family: times new roman;
+			min-height: 25px;
+			min-width: 135px;
+			transition: 0.5s;
+			text-align: center;
+		}
+		button:hover {
+			background-color:blue ;
+			color:white;
+		}
+		.download {
+			font-size: 5px;
+			color: white;
+			transition: 0.5s;
+		}
+		.download p{
+			display: none;
+			color: #000000;
+		}
+		.download:hover p{
+			background-color: blue;
+			color:white;
+			display:block;
+		}
+	</style>
+</head>
+<body>
+	
+	<left>
+		<button onclick = "window.location.href = 'https://github.com/HanlinMiao/CPE-487-A'">Github</button>
+		
+		<div style = "padding:0px; display:inline-block" class = "download">
+		<a href = "document.pdf20200131-1-2ezwa820200131-1-64sym3.pdf" download="Hanlin_Miao_Resume">
+		<button>Resume
+			<p style="font-size:10px; font-color:white"> Click to download Hanlin's Resume </p>
+		</button>
+		</a>
+		</div>
+		<button>CPE-487-A Log</button>
+	</left>
+	<center><h1>Hanlin</h1></center>
+	<center><h1>Miao</h1></center>
+	<center><hr></center>
+</body>
+</html>
